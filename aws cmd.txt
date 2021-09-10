@@ -1,0 +1,7 @@
+db.places.insert({"name":"Paris", "description":"Open for Lovers retreat","country":"France","tags":["historical","Eiffel tower","shopping"],likes:50})
+db.places.insert({"name":"Nice", "description":"Open for Beach party retreat","country":"France","tags":["tourism","beach","surfboarding"],likes:250})
+db.places.insert({"name":"Langkawi", "description":"Open for tourism in 16th Sept","country":"Malaysia","tags":["historical","Beach","shopping"],likes:150})
+db.places.insert({"name":"Bali", "description":"Open for Beach party retreat","country":"Indonesia","tags":["historical","Ancient Temples","shopping"],likes:350})
+db.places.insert({"name":"Machu Pichu", "description":"Open for awespiring retreat","country":"Peru","tags":["historical","Machu Pichu","shopping"],"comments":["user","message","rating"],likes:450})
+db.places.insert({"name":"Phuket", "description":"Open for beach retreat","country":"Thailand",tags:["tourism","beach party","shopping"],comments:[{"user":"Raj","message":"Nice place to visit","rating":5}],likes:550})
+db.places.find({$or:[{)
